@@ -2,26 +2,25 @@
 <html>
 <head>
 <script>
-var number = prompt("please choose a number");
-var number = + number;
-var test = function () {
+(function () {
+	var number = prompt("please choose a number");
+	number = + number;
+
 	for (var i = 1; i <= number; i++) {
 		if (i % 3 === 0 && i % 5 === 0) {
-		console.log('fizz buzz');
+			console.log('fizz buzz');
+		}
+		else if (i % 3 === 0) {
+			console.log('fizz');
+		}
+		else if (i % 5 === 0) {
+			console.log('buzz');
+		}
+		else {
+			console.log(i);
+		}
 	}
-	else if (i % 3 === 0) {
-		console.log('fizz');
-	}
-	else if (i % 5 === 0) {
-		console.log('buzz');
-	}
-	else {
-		console.log(i);
-	}
-
-	}
-};
-test();
+})();
 </script>
 </head>
 <body>Fizz Buzz - Challenge 2
