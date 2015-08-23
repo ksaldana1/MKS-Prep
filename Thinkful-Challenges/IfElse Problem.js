@@ -1,4 +1,3 @@
-
 function animalPlural(animal) {
 	var number = prompt("How many animals do you have?")
 	number = + number
