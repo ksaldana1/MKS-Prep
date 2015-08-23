@@ -1,4 +1,3 @@
-
 var arr1 = [1, 2, 3]
 // Callback Functions
 function add1(value) {
