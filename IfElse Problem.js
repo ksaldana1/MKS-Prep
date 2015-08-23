@@ -1,4 +1,4 @@
-<script>
+
 function animalPlural(animal) {
 	var number = prompt("How many animals do you have?")
 	number = + number
@@ -9,4 +9,4 @@ function animalPlural(animal) {
 		console.log(number + " " + animal + "s");
 	};
 }
-</script>
+
