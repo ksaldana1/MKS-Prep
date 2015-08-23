@@ -1,4 +1,4 @@
-<script>
+
 function evenNumbers() {
 	i = 1
 	while (i <= 20) {
@@ -8,4 +8,4 @@ function evenNumbers() {
 		i++;
 	};
 };
-</script>
+
