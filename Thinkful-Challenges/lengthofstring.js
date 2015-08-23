@@ -1,4 +1,3 @@
-
 function lengthofString(string) {
 	var stringArray = string.split(" ");
 	var stringLength = string.split(" ").join("");
