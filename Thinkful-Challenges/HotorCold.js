@@ -1,4 +1,3 @@
-
 var random = Math.round((Math.random()*100));
 var guess = undefined
 var pastGuess = []
